@@ -1,0 +1,42 @@
+.cartao{
+    background: url('/img/CARTAO.png') no-repeat;
+    background-size: contain;
+    width: 350px;
+    height: 200px;
+}
+
+#nr-cartao{
+    list-style: none;
+}
+
+.date-card{
+    font-size: 10px;
+    
+}
+
+.operacoes button{
+    color: white;
+    background-color:  #1839B1;
+}
+
+.operacoes{
+    border-left: 1px solid  #1839B1 ;
+}
+
+.balance-total{
+    font-size: 60px;
+}
+
+.transitions{
+    height: 300px;
+    max-height: 300px;
+    overflow-y: auto;
+    scrollbar-width: thin;
+}
+
+.transitions::-webkit-scrollbar {
+    width: 0;
+}
+.balance-total{
+    color: #1839B1;
+}
